@@ -6,16 +6,40 @@
     <title>Document</title>
 </head>
 
-<link rel="stylesheet" href="contact.css">
+<link rel="stylesheet" href="./contact.css">
 
 <body>
     
     <h1>Contact</h1>
 
-    <p>You can find me in: </p>
-    <li><u>juan.janett.hernandez@gmail.com</u></li>
-    <li><u>https://www.linkedin.com/in/juan-janett/</u></li>
-    <li><u>https://www.github.com/Jhonisnotreal/</u></li>
+    <p>You can find me on: </p>
+    <a href="https://www.linkedin.com/in/juan-janett/" target="_blank">Linkedin</a>
+    <a href="https://www.github.com/Jhonisnotreal/" target="_blank">Github</a>
+
+    <p>Send me an email</p>
+
+    <form method="post">  
+        <label for="name">Full  Name</label>
+        <input type="text" id="name" name="user_name" />
+          
+        <label for="email">Email</label>
+        <input type="email" id="mail" name="user_mail" />
+          
+        <label for="subject">Title</label>
+        <input type="text" id="mail" name="user_mail" />
+          
+        <label for="msg">Message</label>
+        <textarea id="msg" name="user_message"></textarea>
+          
+        <input type="submit" value="Submit" class="button">
+        
+      </form>
+      
 
 </body>
+
+<footer>
+    <a href="./index.html">⬅️ Home</a>
+
+</footer>
 </html>
