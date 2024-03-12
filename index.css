@@ -1,21 +1,17 @@
 header {
     font-size: xx-large;
-    color: white;
     text-align: center;
 }
 
-.label1{
-    text-align: left;
+.label{
+    text-align: center;
 }
 
 h3 {
-    color: white;
     text-align: center;
 }
 
 body {
-    background-color: black;
-    color: white;
     text-align: center;
 }
 
@@ -24,5 +20,6 @@ div {
 }
 
 footer {
-    color: white;
+    color: black;
+
 }
