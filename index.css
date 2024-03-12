@@ -57,6 +57,11 @@ section{
     text-align: justify;
 }
 
+.box {
+    display: grid;
+    justify-content: space-evenly;
+}
+
 div {
     display: grid;
     align-items: center;
@@ -71,6 +76,16 @@ div {
 
 div:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+h4 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+div a {
+    margin: 10px;
 }
 
 footer {
